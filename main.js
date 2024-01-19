@@ -146,7 +146,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   makeMenuElements: () => (/* binding */ makeMenuElements)\n/* harmony export */ });\nfunction makeMenuElements () {\r\n    const main = document.createElement('main');\r\n    main.classList.add('menu-items');\r\n\r\n    const pl1 = document.createElement('div');\r\n    const img1 = document.createElement('img');\r\n    const disc1 = document.createElement('p');\r\n    img1.src = '../src/img/beef-stew.jpg';\r\n    img1.alt = 'beef-stew';\r\n    disc1.innerHTML = 'Nigerian Beef Stew';\r\n    pl1.append(img1, disc1);\r\n\r\n    const pl2 = document.createElement('div');\r\n    const img2 = document.createElement('img');\r\n    const disc2 = document.createElement('p');\r\n    img2.src = '../src/img/egusi-soup.jpg';\r\n    img2.alt = 'egusi-soup';\r\n    disc2.innerHTML = 'Nigerian Egusi Soup';\r\n    pl2.append(img2, disc2);\r\n\r\n    const pl3 = document.createElement('div');\r\n    const img3 = document.createElement('img');\r\n    const disc3 = document.createElement('p');\r\n    img3.src = '../src/img/fried-chicken.jpg';\r\n    img3.alt = 'fried-chicken';\r\n    disc3.innerHTML = 'Fried Chicken';\r\n    pl3.append(img3, disc3);\r\n\r\n    const pl4 = document.createElement('div');\r\n    const img4 = document.createElement('img');\r\n    const disc4 = document.createElement('p');\r\n    img4.src = '../src/img/okra-soup.jpg';\r\n    img4.alt = 'okra-soup';\r\n    disc4.innerHTML = 'Nigerian Okra Soup';\r\n    pl4.append(img4, disc4);\r\n\r\n    const pl5 = document.createElement('div');\r\n    const img5 = document.createElement('img');\r\n    const disc5 = document.createElement('p');\r\n    img5.src = '../src/img/white-rice.jpg';\r\n    img5.alt = 'white-rice-and-chicken-soup';\r\n    disc5.innerHTML = 'Nigerian White Rice and Chicken Soup';\r\n    pl5.append(img5, disc5);\r\n\r\n\r\n    main.append(pl1, pl2, pl3, pl4, pl5);\r\n\r\n    return main;\r\n}\n\n//# sourceURL=webpack://restaurant-page/./src/menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   makeMenuElements: () => (/* binding */ makeMenuElements)\n/* harmony export */ });\n/* harmony import */ var _img_beef_stew_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./img/beef-stew.jpg */ \"./src/img/beef-stew.jpg\");\n/* harmony import */ var _img_white_rice0_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./img/white-rice0.jpg */ \"./src/img/white-rice0.jpg\");\n/* harmony import */ var _img_egusi_soup_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./img/egusi-soup.jpg */ \"./src/img/egusi-soup.jpg\");\n/* harmony import */ var _img_fried_chicken_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./img/fried-chicken.jpg */ \"./src/img/fried-chicken.jpg\");\n/* harmony import */ var _img_okra_soup_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./img/okra-soup.jpg */ \"./src/img/okra-soup.jpg\");\n\r\n\r\n\r\n\r\n\r\n\r\nfunction makeMenuElements () {\r\n    const main = document.createElement('main');\r\n    main.classList.add('menu-items');\r\n\r\n    const pl1 = document.createElement('div');\r\n    const img1 = document.createElement('img');\r\n    const disc1 = document.createElement('p');\r\n    img1.src = _img_beef_stew_jpg__WEBPACK_IMPORTED_MODULE_0__;\r\n    img1.alt = 'beef-stew';\r\n    disc1.innerHTML = 'Nigerian Beef Stew';\r\n    pl1.append(img1, disc1);\r\n\r\n    const pl2 = document.createElement('div');\r\n    const img2 = document.createElement('img');\r\n    const disc2 = document.createElement('p');\r\n    img2.src = _img_egusi_soup_jpg__WEBPACK_IMPORTED_MODULE_2__;\r\n    img2.alt = 'egusi-soup';\r\n    disc2.innerHTML = 'Nigerian Egusi Soup';\r\n    pl2.append(img2, disc2);\r\n\r\n    const pl3 = document.createElement('div');\r\n    const img3 = document.createElement('img');\r\n    const disc3 = document.createElement('p');\r\n    img3.src = _img_fried_chicken_jpg__WEBPACK_IMPORTED_MODULE_3__;\r\n    img3.alt = 'fried-chicken';\r\n    disc3.innerHTML = 'Fried Chicken';\r\n    pl3.append(img3, disc3);\r\n\r\n    const pl4 = document.createElement('div');\r\n    const img4 = document.createElement('img');\r\n    const disc4 = document.createElement('p');\r\n    img4.src = _img_okra_soup_jpg__WEBPACK_IMPORTED_MODULE_4__;\r\n    img4.alt = 'okra-soup';\r\n    disc4.innerHTML = 'Nigerian Okra Soup';\r\n    pl4.append(img4, disc4);\r\n\r\n    const pl5 = document.createElement('div');\r\n    const img5 = document.createElement('img');\r\n    const disc5 = document.createElement('p');\r\n    img5.src = _img_white_rice0_jpg__WEBPACK_IMPORTED_MODULE_1__;\r\n    img5.alt = 'white-rice-and-chicken-soup';\r\n    disc5.innerHTML = 'Nigerian White Rice and Chicken Soup';\r\n    pl5.append(img5, disc5);\r\n\r\n\r\n    main.append(pl1, pl2, pl3, pl4, pl5);\r\n\r\n    return main;\r\n}\n\n//# sourceURL=webpack://restaurant-page/./src/menu.js?");
 
 /***/ }),
 
@@ -157,6 +157,56 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   makeBodyElements: () => (/* binding */ makeBodyElements)\n/* harmony export */ });\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home */ \"./src/home.js\");\n/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./menu */ \"./src/menu.js\");\n/* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./contact */ \"./src/contact.js\");\n\r\n\r\n\r\n\r\nfunction makeBodyElements () {\r\n    const header = document.createElement('header');\r\n    const div = document.createElement('div');\r\n    const footer = document.createElement('footer');\r\n\r\n    const siteName = document.createElement('h1');\r\n    const buttonDiv = document.createElement('div');\r\n\r\n    siteName.innerHTML = 'uRestaurant';\r\n\r\n    const homeButton = document.createElement('div');\r\n    const menuButton = document.createElement('div');\r\n    const contactButton = document.createElement('div');\r\n\r\n    homeButton.innerHTML = 'HOME';\r\n    menuButton.innerHTML = 'MENU';\r\n    contactButton.innerHTML = 'CONTACT';\r\n\r\n    buttonDiv.append(homeButton, menuButton, contactButton);\r\n\r\n    header.append(siteName, buttonDiv);\r\n\r\n    div.append((0,_home__WEBPACK_IMPORTED_MODULE_0__.makeHomeElements)(), (0,_menu__WEBPACK_IMPORTED_MODULE_1__.makeMenuElements)(), (0,_contact__WEBPACK_IMPORTED_MODULE_2__.makeContactElements)());\r\n\r\n    const nameDiv = document.createElement('div');\r\n    const crDiv1 = document.createElement('div');\r\n    const crDiv2 = document.createElement('div');\r\n\r\n    nameDiv.innerHTML = `&copy;AimsDev`;\r\n\r\n    const crlink = document.createElement('a');\r\n    const crlink1 = document.createElement('a');\r\n    const crlink2 = document.createElement('a');\r\n    const crlink3 = document.createElement('a');\r\n\r\n    crlink.href = \"https://www.freepik.com/free-photo/top-view-vegetable-soup-with-meat-inside-plate-grey_10724750.htm#query=nigerian%20food&position=0&from_view=keyword&track=ais\";\r\n    crlink.innerHTML = 'Image by KamranAydinov on Freepik';\r\n\r\n    crlink1.href = \"https://www.freepik.com/free-photo/dried-squid-baked-with-sweet-sour-sauce-asian-seafood-concept_8885190.htm#page=2&query=nigerian%20food&position=0&from_view=keyword&track=ais\";\r\n    crlink1.innerHTML = 'Image by jcomp on Freepik';\r\n\r\n    crlink2.href = \"https://www.freepik.com/free-photo/delicious-fried-chicken-plate_8167861.htm#page=2&query=nigerian%20food&position=2&from_view=keyword&track=ais\";\r\n    crlink2.innerHTML = 'Image by Racool_studio on Freepik';\r\n\r\n    crlink3.href = \"https://stock.adobe.com/ng/contributor/207827152/bassey?load_type=author&prev_url=detail\";\r\n    crlink3.innerHTML = 'Image by Bassey on Adobe Stock';\r\n\r\n    crDiv1.append(crlink, crlink1);\r\n    crDiv2.append(crlink2, crlink3);\r\n\r\n    footer.append(nameDiv, crDiv1, crDiv2);\r\n\r\n    document.getElementById('content').append(header, div, footer);\r\n    return { homeButton, menuButton, contactButton };\r\n};\n\n//# sourceURL=webpack://restaurant-page/./src/page.js?");
+
+/***/ }),
+
+/***/ "./src/img/beef-stew.jpg":
+/*!*******************************!*\
+  !*** ./src/img/beef-stew.jpg ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"5b44e6b9ef696f3ff390.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/img/beef-stew.jpg?");
+
+/***/ }),
+
+/***/ "./src/img/egusi-soup.jpg":
+/*!********************************!*\
+  !*** ./src/img/egusi-soup.jpg ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"a63d482d9bf54c065152.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/img/egusi-soup.jpg?");
+
+/***/ }),
+
+/***/ "./src/img/fried-chicken.jpg":
+/*!***********************************!*\
+  !*** ./src/img/fried-chicken.jpg ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"f80fac63784e9a9daf7c.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/img/fried-chicken.jpg?");
+
+/***/ }),
+
+/***/ "./src/img/okra-soup.jpg":
+/*!*******************************!*\
+  !*** ./src/img/okra-soup.jpg ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"efb7706dbc72ea2c162f.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/img/okra-soup.jpg?");
+
+/***/ }),
+
+/***/ "./src/img/white-rice0.jpg":
+/*!*********************************!*\
+  !*** ./src/img/white-rice0.jpg ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"11f477d1762d0628ef39.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/img/white-rice0.jpg?");
 
 /***/ })
 
@@ -211,6 +261,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -225,6 +287,29 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src;
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) {
+/******/ 					var i = scripts.length - 1;
+/******/ 					while (i > -1 && !scriptUrl) scriptUrl = scripts[i--].src;
+/******/ 				}
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
